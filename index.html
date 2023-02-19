@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docstec | Task Manager</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-slate-200 px-5">
+    <!-- User Details-->
+    <div class="flex items-center justify-between my-5">
+        <div class="text-blue-600">
+            <h3 class="font-semibold text-2xl">Nurul Hudda</h3>
+            <h4 class="text-sm">Web Designer</h4>
+        </div>
+        <div>
+            <img src="./images/profile-img.jpg" class="rounded-2xl w-12" alt="">
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <div class="flex items-center gap-2 text-green-600 mb-3">
+            <i class='bx bx-task-x text-xl'></i>
+            <h2 class="font-semibold text-xl">Recently Assigned</h2>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-md" data-aos="zoom-in">
+            <h2 class="font-semibold text-blue-600 text-xl mb-2">E-commerce Front-end</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quod, doloremque ab, veniam neque officia error veritatis numquam corporis ullam ipsa recusandae perspiciatis. Voluptatum asperiores, a magnam, distinctio dolores assumenda, voluptate doloribus illum quo expedita nisi ipsa commodi? Voluptatem mollitia vero ducimus culpa ipsam quos fugiat, consectetur exercitationem velit vitae.</p>
+            <div class="flex items-center gap-1 font-semibold mt-2 text-red-600">
+                <i class='bx bx-time'></i>
+                <p>12 hour ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="flex items-center justify-between mb-2">
+            <h2 class="font-semibold text-xl text-green-600">Tasks</h2>
+            <button type="submit" class="text-blue-600 font-semibold text-base">View All</button>
+        </div>
+        <div class="bg-white rounded-lg p-5 shadow-md mb-3">
+            <h2 class="font-semibold text-lg">Ours Dokan Front-end</h2>
+            <h3 class="">Deadline: <span>01 March 2023</span></h3>
+            <div class="w-full bg-red-400 rounded-full">
+                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 79%">79%</div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg p-5 shadow-md mb-3">
+            <h2 class="font-semibold text-lg">Ours Dokan Back-end</h2>
+            <h3 class="">Deadline: <span>25 March 2023</span></h3>
+            <div class="w-full bg-red-400 rounded-full">
+                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 27%">27%</div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg p-5 shadow-md mb-3">
+            <h2 class="font-semibold text-lg">Docstec Blog</h2>
+            <h3 class="">Deadline: <span>20 March 2023</span></h3>
+            <div class="w-full bg-red-400 rounded-full">
+                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 45%">45%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
